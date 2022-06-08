@@ -1,0 +1,175 @@
+:root{
+    --main-color:#e9e7e7;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: var(--main-color);
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: rgba(0, 0, 0, 0.5);
+}
+.navbar .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-nav .nav-item .nav-link.active{
+    color: black;
+    font-weight: bold;
+}
+/* Start Landing */
+.landing{
+    background-color: var(--main-color);
+    width: 100%;
+}
+.landing .land-info h1{
+    font-size: 3rem;
+}
+/* End landing */
+/* Start memory */
+.memory{
+    position: relative;
+}
+.memory .memory-info{
+    width: 400px;
+}
+.memory .toolOne{
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+    display: none;
+}
+.memory .toolTwo{
+    position: absolute;
+    left: 0;
+    top: 10%;
+    display: none;
+}
+/* end memory */
+/* Start Features */
+.features{
+    background-color:var(--main-color);
+    position: relative;
+}
+.features .card{
+    background: none;
+}
+.features .card .card-body{
+    position: relative;
+    margin-left: 0;
+    padding-left: 0;
+}
+.features .card .card-body::before{
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: 5px;
+}
+.tools{
+    position: absolute;
+    display: none;
+}
+.toolThree{
+    top: -30px;
+    left: -10px;
+}
+/* End Features */
+/* Start Place */
+.place{
+    background-color: var(--main-color);
+    position: relative;
+}
+.toolFour{
+    top: 10px;
+    right: 0;
+    width: 200px;
+}
+.toolFive{
+    left: 20%;
+    top: 70%;
+    width: 300px;
+}
+/* End Place */
+/* Start images */
+.images-land{
+    background-color: var(--main-color);
+}
+.images-land .img-left{
+    position: relative;
+    display: inline-block;
+}
+.images-land .img-left .tape{
+    position: absolute;
+    left: -25px;
+    top: 40%;
+}
+
+/* End IMAGES */
+/* Start Choose */
+.choose{
+    position: relative;
+}
+.toolSix{
+    bottom: 0;
+    left: 0;
+    width: 200px;
+}
+/* End Choose */
+/* Start Customer */
+.customer{
+    background-color: var(--main-color);
+}
+.customer .people .cbox{
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.customer .people .cbox .img-p{
+    text-align: center;
+}
+.customer .people .cbox .img-p img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+/* End Customer */
+/* Start Contact */
+.contact{
+    background-color: var(--main-color);
+}
+.contact form input{
+    width: 100%;
+    height: 50px;
+    padding: 2px;
+    margin: 12px 0;
+    color: rgb(14, 7, 46);
+}
+textarea{
+    width: 100%;
+    padding: 2px;
+    margin: 12px 0;
+}
+.contact .img-rt{
+    height: 521px;
+    width: 100%;
+}
+/* End Contact */
+/* Start Footer */
+.footer{
+    background-color: #c4c4c4;
+    position: relative;
+}
+.footer li{
+    padding: 10px 0;
+    color: black;
+}
+.footer a {
+    text-decoration: none;
+}
+.footer .tol{
+    position: absolute;
+    left: -20%;
+    bottom: 0%;
+    width: 700px;
+}
+/* End Footer */
